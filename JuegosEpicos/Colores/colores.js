@@ -8,5 +8,13 @@ function cambiarRojo(){
     document.body.style.backgroundColor = "red";
 }
 function cambiarAmarillo(){
-    document.body.style.backgroundColor = "yellow";º
+    document.body.style.backgroundColor = "yellow";
+}
+
+function cambiarColor(color){
+    document.body.style.backgroundColor = color;
+}
+
+function cambiarColor2(elemento){
+    document.body.style.backgroundColor = elemento.style.backgroundColor;
 }
