@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#171b19">
+    <meta name="description" content="Una colección de cócteles de autor, elaborados con destilados excepcionales e ingredientes de temporada.">
+    <title>La Sobremesa | Coctelería de autor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cocteles.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="wordmark" href="#inicio" aria-label="La Sobremesa, inicio">
+            <span class="wordmark-icon" aria-hidden="true">S</span>
+            <span>LA SOBREMESA<small>COCTELERÍA DE AUTOR</small></span>
+        </a>
+        <nav class="main-nav" aria-label="Navegación principal">
+            <a class="nav-active" href="#carta">La carta</a>
+            <a href="#filosofia">Nuestra filosofía</a>
+        </nav>
+        <a class="reservation-link" href="mailto:reservas@lasobremesa.com">Reservar una mesa <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="inicio">
+        <section class="intro" aria-labelledby="page-title">
+            <div class="intro-copy">
+                <p class="eyebrow"><span></span> BARRA DE AUTOR · MADRID</p>
+                <h1 id="page-title">El arte de<br><em>quedarse un poco más.</em></h1>
+                <p class="intro-description">Destilados excepcionales, ingredientes de temporada y el placer de no tener ninguna prisa.</p>
+                <a class="text-link" href="#carta">Descubrir la carta <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="intro-image" role="img" aria-label="Cóctel de autor servido en una copa junto a una barra de mármol">
+                <span class="image-caption">UNA NOCHE, A TU RITMO <span>— DESDE 2018</span></span>
+            </div>
+            <div class="intro-index" aria-hidden="true">01 <span>/</span> 04</div>
+        </section>
+
+        <section class="menu-section" id="carta" aria-labelledby="menu-title">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow"><span></span> NUESTRA SELECCIÓN</p>
+                    <h2 id="menu-title">La carta <span>de la casa</span></h2>
+                </div>
+                <p class="menu-note">Seis maneras de alargar la noche.<br>Elige una copa para conocer su historia.</p>
+            </div>
+
+            <div class="cocktail-grid">
+                <article class="cocktail-card">
+                    <input class="card-toggle" type="checkbox" id="cocktail-negroni">
+                    <label class="cocktail-visual" for="cocktail-negroni" aria-label="Ver ingredientes y preparación del Negroni de la casa">
+                        <img src="https://images.unsplash.com/photo-1551538827-9c037cb4f32a?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Negroni de color rubí servido con hielo y piel de naranja" loading="lazy">
+                        <span class="drink-number">01 <span>— CLÁSICO</span></span>
+                        <span class="image-action" aria-hidden="true">+</span>
+                    </label>
+                    <div class="cocktail-title"><h3>Negroni de la casa</h3><span>14 €</span></div>
+                    <p class="tasting-note">Amargo · cítrico · botánico</p>
+                    <div class="cocktail-details">
+                        <div><h4>Ingredientes</h4><p>Ginebra de autor, vermut rojo artesanal, bitter italiano y naranja fresca.</p></div>
+                        <div><h4>Preparación</h4><p>Removemos con hielo hasta alcanzar la temperatura perfecta. Servimos sobre un gran cubo de hielo y terminamos con piel de naranja.</p></div>
+                    </div>
+                </article>
+
+                <article class="cocktail-card">
+                    <input class="card-toggle" type="checkbox" id="cocktail-martini">
+                    <label class="cocktail-visual" for="cocktail-martini" aria-label="Ver ingredientes y preparación del Martini de oliva">
+                        <img src="https://images.unsplash.com/photo-1575023782549-62ca0d244b39?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Martini servido frío en una copa elegante" loading="lazy">
+                        <span class="drink-number">02 <span>— IMPRESCINDIBLE</span></span>
+                        <span class="image-action" aria-hidden="true">+</span>
+                    </label>
+                    <div class="cocktail-title"><h3>Martini de oliva</h3><span>16 €</span></div>
+                    <p class="tasting-note">Seco · salino · delicado</p>
+                    <div class="cocktail-details">
+                        <div><h4>Ingredientes</h4><p>Ginebra London Dry, vermut seco, salmuera de oliva arbequina y aceituna gordal.</p></div>
+                        <div><h4>Preparación</h4><p>Enfriamos la copa. Removemos los destilados con hielo, colamos finamente y servimos con una aceituna ensartada.</p></div>
+                    </div>
+                </article>
+
+                <article class="cocktail-card">
+                    <input class="card-toggle" type="checkbox" id="cocktail-paloma">
+                    <label class="cocktail-visual" for="cocktail-paloma" aria-label="Ver ingredientes y preparación de la Paloma rosada">
+                        <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Cóctel rosado con cítricos frescos y hielo" loading="lazy">
+                        <span class="drink-number">03 <span>— DE TEMPORADA</span></span>
+                        <span class="image-action" aria-hidden="true">+</span>
+                    </label>
+                    <div class="cocktail-title"><h3>Paloma rosada</h3><span>15 €</span></div>
+                    <p class="tasting-note">Fresco · floral · chispeante</p>
+                    <div class="cocktail-details">
+                        <div><h4>Ingredientes</h4><p>Tequila reposado, pomelo rosa, lima, sirope de agave y soda.</p></div>
+                        <div><h4>Preparación</h4><p>Agitamos tequila, zumo de pomelo, lima y agave. Servimos con hielo, completamos con soda y decoramos con pomelo fresco.</p></div>
+                    </div>
+                </article>
+
+                <article class="cocktail-card">
+                    <input class="card-toggle" type="checkbox" id="cocktail-old-fashioned">
+                    <label class="cocktail-visual" for="cocktail-old-fashioned" aria-label="Ver ingredientes y preparación del Old Fashioned ahumado">
+                        <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Cóctel ámbar servido en vaso bajo con hielo" loading="lazy">
+                        <span class="drink-number">04 <span>— DE LA BARRA</span></span>
+                        <span class="image-action" aria-hidden="true">+</span>
+                    </label>
+                    <div class="cocktail-title"><h3>Old Fashioned ahumado</h3><span>17 €</span></div>
+                    <p class="tasting-note">Robusto · especiado · sedoso</p>
+                    <div class="cocktail-details">
+                        <div><h4>Ingredientes</h4><p>Bourbon de pequeños lotes, azúcar demerara, bitters de angostura y madera de roble.</p></div>
+                        <div><h4>Preparación</h4><p>Disolvemos el azúcar con los bitters, añadimos bourbon y hielo. Removemos y perfumamos con humo de roble antes de servir.</p></div>
+                    </div>
+                </article>
+
+                <article class="cocktail-card">
+                    <input class="card-toggle" type="checkbox" id="cocktail-french75">
+                    <label class="cocktail-visual" for="cocktail-french75" aria-label="Ver ingredientes y preparación del French 75 de azahar">
+                        <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Cóctel espumoso servido en copa alta" loading="lazy">
+                        <span class="drink-number">05 <span>— PARA CELEBRAR</span></span>
+                        <span class="image-action" aria-hidden="true">+</span>
+                    </label>
+                    <div class="cocktail-title"><h3>French 75 de azahar</h3><span>16 €</span></div>
+                    <p class="tasting-note">Burbujeante · cítrico · elegante</p>
+                    <div class="cocktail-details">
+                        <div><h4>Ingredientes</h4><p>Ginebra seca, limón recién exprimido, sirope de azahar y champagne brut.</p></div>
+                        <div><h4>Preparación</h4><p>Agitamos ginebra, limón y azahar con hielo. Colamos en una copa fría y completamos suavemente con champagne.</p></div>
+                    </div>
+                </article>
+
+                <article class="cocktail-card">
+                    <input class="card-toggle" type="checkbox" id="cocktail-espresso">
+                    <label class="cocktail-visual" for="cocktail-espresso" aria-label="Ver ingredientes y preparación del Espresso Martini de sobremesa">
+                        <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Cóctel oscuro de café con una capa cremosa" loading="lazy">
+                        <span class="drink-number">06 <span>— DESPUÉS DE CENAR</span></span>
+                        <span class="image-action" aria-hidden="true">+</span>
+                    </label>
+                    <div class="cocktail-title"><h3>Espresso de sobremesa</h3><span>15 €</span></div>
+                    <p class="tasting-note">Intenso · tostado · aterciopelado</p>
+                    <div class="cocktail-details">
+                        <div><h4>Ingredientes</h4><p>Vodka premium, espresso de origen único, licor de café y un toque de azúcar.</p></div>
+                        <div><h4>Preparación</h4><p>Agitamos enérgicamente todos los ingredientes con hielo para crear una crema fina. Colamos en copa fría y coronamos con tres granos de café.</p></div>
+                    </div>
+                </article>
+            </div>
+            <p class="menu-footnote">Precios por copa · Consulta a nuestro equipo por opciones sin alcohol y alérgenos.</p>
+        </section>
+
+        <section class="manifesto" id="filosofia">
+            <p class="eyebrow"><span></span> EL TIEMPO SABE MEJOR AQUÍ</p>
+            <p class="manifesto-quote">“No servimos copas para irse.<br>Servimos razones <em>para quedarse.</em>”</p>
+            <a class="text-link" href="mailto:reservas@lasobremesa.com">Tu mesa te espera <span aria-hidden="true">↗</span></a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="footer-brand" href="#inicio">LA SOBREMESA</a>
+        <p>Martes a domingo · 18:00 – 02:00</p>
+        <p>Madrid, España · <a href="mailto:reservas@lasobremesa.com">Reservas</a></p>
+        <span>CON CALMA, SIEMPRE.</span>
+    </footer>
+
+    <script src="cocteles.js"></script>
+</body>
+</html>

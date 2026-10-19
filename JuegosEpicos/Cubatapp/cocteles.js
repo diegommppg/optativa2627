@@ -1,0 +1,1 @@
+console.log("Cubatapp - Cocteles module loaded");
